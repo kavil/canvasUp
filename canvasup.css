@@ -1,0 +1,11 @@
+.canvas_img,.canvas,.canvas_div,.canvas_btn,.canvas_bg{position: absolute;}
+.canvas_div,.canvas_bg{left:0;top:0;bottom:0;right:0;}
+.canvas_img{z-index:1;}
+.canvas_bg{background-color: rgba(0,0,0,.6);z-index:2;}
+.canvas{left:0;border:1px solid #fff;top:30px;z-index:100;}
+.canvas_div{z-index:999;}
+.canvas_btn {bottom:0;left:0;right:0;height:60px;background-color: #333;z-index:1000;}
+.canvas_btn a{float:left;color:#fff;width:60px;height:160px;line-height: 60px;text-decoration: none;text-align: center;}
+.canvas_btn .canvas_ok{float:right;}
+.canvas_save:active{color:#fff;}
+.canvasup{ position: fixed; height: 100%; width: 100%; overflow: hidden; top: 0; background: #999; z-index: 1000; }
